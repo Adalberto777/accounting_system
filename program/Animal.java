@@ -9,8 +9,8 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Animal {
-    private int id;
     private String name;
     private LocalDate dob;
-    private String type;
+    private TypeAnimal type;
+    private PurposeAnimal purpose;
 }
