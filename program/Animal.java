@@ -12,4 +12,5 @@ public class Animal {
     private int id;
     private String name;
     private LocalDate dob;
+    private String type;
 }
