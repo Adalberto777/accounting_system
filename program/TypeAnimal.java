@@ -9,11 +9,16 @@ public enum TypeAnimal {
     DONKEY ("Осёл");
 
     private String type;
-    TypeAnimal(String type) {
-        this.type = type;
-    }
 
     public String getType() {
         return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    TypeAnimal(String type) {
+        this.type = type;
     }
 }

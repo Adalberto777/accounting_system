@@ -3,17 +3,17 @@ package program;
 public enum PurposeAnimal {
     PET("домашнее животное"), PACK("вьючное животное");
 
-    private final String russianPurposeAnimalTitle;
-    PurposeAnimal(String russianPurposeAnimalTitle){
-        this.russianPurposeAnimalTitle = russianPurposeAnimalTitle;
+    private String type;
+
+    PurposeAnimal(String type) {
+        this.type = type;
     }
 
-    public String getRussianPurposeAnimalTitle(){
-        return russianPurposeAnimalTitle;
+    public String getType() {
+        return type;
     }
 
-    @Override
-    public String toString() {
-        return name();
+    public void setType(String type) {
+        this.type = type;
     }
 }
