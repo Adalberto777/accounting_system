@@ -1,19 +1,14 @@
 package program;
 
 public enum PurposeAnimal {
-    PET("домашнее животное"), PACK("вьючное животное");
+    PET("домашнее животное"),
+    PACK("вьючное животное");
 
-    private String type;
+    private String purpose;
 
-    PurposeAnimal(String type) {
-        this.type = type;
-    }
+    PurposeAnimal(String purpose) {this.purpose = purpose;}
 
-    public String getType() {
-        return type;
-    }
+    public String getPurpose() {return purpose;}
 
-    public void setType(String type) {
-        this.type = type;
-    }
+    public void setPurpose(String purpose) {this.purpose = purpose;}
 }

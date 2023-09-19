@@ -10,15 +10,9 @@ public enum TypeAnimal {
 
     private String type;
 
-    public String getType() {
-        return type;
-    }
+    TypeAnimal(String type) {this.type = type;}
 
-    public void setType(String type) {
-        this.type = type;
-    }
+    public String getType() {return type;}
 
-    TypeAnimal(String type) {
-        this.type = type;
-    }
+    public void setType(String type) {this.type = type;}
 }
